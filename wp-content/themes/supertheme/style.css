@@ -1,0 +1,79 @@
+/*
+Theme Name: supertheme
+Theme URI: https://wordpress.org/themes/twentynineteen/
+Author: amel bouhajja
+Author URI: https://youtub.com/foll
+Description: the theme pour un tutoriel
+Requires PHP: 5.2.4
+Version: 1.0
+License: GNU General Public License v2 or later
+*/
+
+
+
+body{
+  background-color:rgb(175, 159, 106);
+font-family: 'arial', sans-serif;
+color: #333;
+margin: 0;
+}
+
+main {
+   width: 1000px;
+margin-left: auto;
+margin-right: auto;
+
+  }
+  main#acceuil{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  } 
+
+  footer{
+      margin-top :20px ;
+      background-color:rgb(14, 130, 134);
+      padding: 20px;
+  }
+  div[class^="menu-"] {
+      background-color: rgb(14, 130, 134);
+      padding: 20px;
+  }
+.menu, footer p,body > h1 {
+ 
+  padding: 0;
+  width: 400px;
+margin-right:auto ;
+margin-left: auto;
+
+}
+
+.menu .menu-item{
+  list-style-type: none;
+display: inline-block;
+margin-right: 20px;
+
+}
+
+.menu .menu-item a, main article a{
+  margin-right: 20px;
+  justify-content: center;
+color: rgb(20, 19, 19);
+text-decoration: none;
+
+}
+
+.menu .menu-item a:hover, main article a:hover{
+
+text-decoration: underline;
+
+}
+
+article{
+  width: 300px;
+margin-bottom: 20px;
+}
+.is-screen-reader-text{
+  color:red;
+}
+
